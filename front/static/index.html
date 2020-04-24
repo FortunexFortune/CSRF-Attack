@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>CSRF Attack</title>
+</head>
+<body>
+
+    <div class="row container center myPadding">
+        <h3> Welcome to CRSF ATTACK!</h3>
+
+        <div class="progress" >
+            <div class="determinate" id="progressBar" style="width: 70%"></div>
+        </div>
+
+        <form class="col s12 formDiv">
+          <div class="row">
+            <div class="input-field col s6">
+              <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+              <label for="first_name">First Name</label>
+            </div>
+            <div class="input-field col s6">
+              <label for="currency-field">Enter Amount</label>
+              <input placeholder="$1,000,000.00" type="number" id="currency_field"  >
+            </div>
+            <!-- <a class="waves-effect waves-light btn">button</a> -->
+            <input class="waves-effect waves-light btn submitButton" type="submit" value="submit">
+          </div>
+        </form>
+      </div>
+        s
+    <script src="script.js"></script>
+</body>
+</html>

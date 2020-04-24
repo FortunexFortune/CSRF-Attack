@@ -1,0 +1,31 @@
+body{
+    background-color:rgb(58, 58, 58);
+}
+
+h3{
+    color : white;
+    background-color: rgba(255, 0, 0, 0.397);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.formDiv{
+    background-color: white;
+    margin-top: 0%;
+}
+
+
+.submitButton{
+    color: white;
+}
+
+.div.progress{
+    margin-bottom: 0px;
+}
+
+.myPadding{
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+
+
