@@ -1,5 +1,5 @@
 CREATE TABLE "account" (
-  "firt_name" varchar PRIMARY KEY,
+  "first_name" varchar PRIMARY KEY,
   "password" varchar,
   "balance" int
 );
