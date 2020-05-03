@@ -7,7 +7,4 @@ The Goal of this project is to mimic a cross sire request forgery request attack
 
 ## 2. Architecture
 <!-- Images -->
-![Markdown Logo](images/diagrams.png)
-
-
-..
+![Diagram](images/diagrams.PNG)
